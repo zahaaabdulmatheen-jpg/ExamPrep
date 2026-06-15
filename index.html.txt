@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Prep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Exam Prep</h2>
+
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="igcse.html">IGCSE</a>
+            <a href="alevel.html">A Level</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+
+        <h1>All Your Past Papers In One Place</h1>
+
+        <p>
+            Access Question Papers, Mark Schemes,
+            Solved Papers and Practice Tests.
+        </p>
+
+        <div class="buttons">
+            <a href="igcse.html">
+                <button>Explore IGCSE</button>
+            </a>
+
+            <a href="alevel.html">
+                <button>Explore A Level</button>
+            </a>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

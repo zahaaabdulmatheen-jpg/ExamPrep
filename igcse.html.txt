@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IGCSE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Exam Prep</h2>
+
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="igcse.html">IGCSE</a>
+        <a href="alevel.html">A Level</a>
+    </div>
+</nav>
+
+<h1 class="page-title">
+    IGCSE Subjects
+</h1>
+
+<div class="subject-grid">
+
+    <div class="subject-card">
+        <a href="subjects/maths.html">
+            Mathematics
+        </a>
+    </div>
+
+    <div class="subject-card">
+        Physics
+    </div>
+
+    <div class="subject-card">
+        Chemistry
+    </div>
+
+    <div class="subject-card">
+        Biology
+    </div>
+
+</div>
+
+</body>
+</html>

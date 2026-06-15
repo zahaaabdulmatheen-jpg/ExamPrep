@@ -21,11 +21,19 @@
 <h1 class="page-title">
     IGCSE Subjects
 </h1>
+
 <input
 type="text"
 id="searchInput"
 placeholder="Search Subjects..."
->
+>#searchInput{
+    width:50%;
+    display:block;
+    margin:30px auto;
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
 <div class="subject-grid">
 
     <div class="subject-card">

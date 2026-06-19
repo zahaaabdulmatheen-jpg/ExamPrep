@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mathematics</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<h1 class="page-title">
+    IGCSE Mathematics
+</h1>
+
+<div class="subject-grid">
+
+    <div class="subject-card">
+        2025
+    </div>
+
+    <div class="subject-card">
+        2024
+    </div>
+
+    <div class="subject-card">
+        2023
+    </div>
+
+    <div class="subject-card">
+        2022
+    </div>
+
+</div>
+
+</body>
+
+</html>

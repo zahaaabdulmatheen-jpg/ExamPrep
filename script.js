@@ -1,26 +1,11 @@
-const searchInput = document.getElementById("searchInput");
+function openMenu(){
 
-if(searchInput){
+document.getElementById("sidebar").style.right="0";
 
-searchInput.addEventListener("keyup", function(){
-
-let filter = searchInput.value.toLowerCase();
-
-let cards = document.querySelectorAll(".subject-card");
-
-cards.forEach(card => {
-
-let text = card.innerText.toLowerCase();
-
-if(text.includes(filter)){
-card.style.display = "block";
-}
-else{
-card.style.display = "none";
 }
 
-});
+function closeMenu(){
 
-});
+document.getElementById("sidebar").style.right="-300px";
 
 }

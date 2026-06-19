@@ -1,106 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam Prep</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exam Prep</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <div class="logo">🌿 Exam Prep</div>
+<div class="topbar">
 
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="igcse.html">IGCSE</a>
-            <a href="alevel.html">A Level</a>
-            <a href="practice.html">Practice</a>
-        </div>
-    </nav>
+<h2>🌿 Exam Prep</h2>
 
-    <section class="hero">
+<div class="hamburger" onclick="openMenu()">
+☰
+</div>
 
-        <h1>All Your Past Papers In One Place</h1>
+</div>
 
-        <p>
-            Access Question Papers, Mark Schemes,
-            Solved Papers and Online Practice Tests.
-        </p>
+<div id="sidebar">
 
-        <div class="hero-buttons">
+<div class="close-btn" onclick="closeMenu()">
+✕
+</div>
 
-            <a href="igcse.html">
-                <button>Explore IGCSE</button>
-            </a>
+<a href="igcse.html">IGCSE</a>
 
-            <a href="alevel.html">
-                <button>Explore A Level</button>
-            </a>
+<a href="alevel.html">A Level</a>
 
-        </div>
+<a href="practice.html">Practice Papers</a>
 
-    </section>
+</div>
 
-    <section class="search-section">
+<section class="hero">
 
-        <h2>Find Your Subject</h2>
+<h1>
+All Your Past Papers
+In One Place
+</h1>
 
-        <input
-            type="text"
-            placeholder="Search Mathematics, Physics, Biology..."
-        >
+<p>
+Question Papers, Mark Schemes,
+Solved Papers and Practice Tests.
+</p>
 
-    </section>
+</section>
 
-    <section class="subjects">
-
-        <h2>Popular Subjects</h2>
-
-        <div class="subject-grid">
-
-            <div class="subject-card">Mathematics</div>
-            <div class="subject-card">Physics</div>
-            <div class="subject-card">Chemistry</div>
-            <div class="subject-card">Biology</div>
-            <div class="subject-card">Accounting</div>
-            <div class="subject-card">Economics</div>
-
-        </div>
-
-    </section>
-
-    <section class="features">
-
-        <h2>Why Use Exam Prep?</h2>
-
-        <div class="feature-grid">
-
-            <div class="feature-card">
-                📚 All Papers in One Place
-            </div>
-
-            <div class="feature-card">
-                ✅ Mark Schemes Included
-            </div>
-
-            <div class="feature-card">
-                ✏️ Solved Papers Available
-            </div>
-
-            <div class="feature-card">
-                📝 Practice Tests
-            </div>
-
-        </div>
-
-    </section>
-
-    <footer>
-        © 2025 Exam Prep
-    </footer>
+<script src="script.js"></script>
 
 </body>
+
 </html>

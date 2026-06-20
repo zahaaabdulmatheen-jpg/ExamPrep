@@ -6,7 +6,15 @@ box-sizing:border-box;
 
 body{
 font-family:Arial,sans-serif;
-background:#F5F3EE;
+
+background:
+linear-gradient(
+180deg,
+#F5F3EE 0%,
+#EDE8DD 100%
+);
+
+min-height:100vh;
 }
 
 /* TOP BAR */

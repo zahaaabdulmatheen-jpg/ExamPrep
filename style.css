@@ -365,3 +365,72 @@ body{
 .paper-card a:hover{
     background:#5F7F5C;
 }
+
+/* PAPER PAGE DESIGN */
+
+.paper-section{
+    max-width:1100px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.paper-section h2{
+    text-align:center;
+    color:#556B54;
+    font-size:34px;
+    margin-bottom:40px;
+}
+
+.paper-category{
+    margin-bottom:55px;
+}
+
+.paper-category h3{
+    color:#6F846A;
+    font-size:28px;
+    margin-bottom:25px;
+    text-align:center;
+    letter-spacing:2px;
+}
+
+.paper-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:25px;
+}
+
+.paper-card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    text-align:center;
+    transition:0.3s ease;
+}
+
+.paper-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 14px 30px rgba(0,0,0,0.13);
+}
+
+.paper-card h4{
+    color:#556B54;
+    margin-bottom:22px;
+    font-size:24px;
+}
+
+.paper-card a{
+    display:block;
+    background:#7E9C7A;
+    color:white;
+    text-decoration:none;
+    padding:13px;
+    margin:12px 0;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s ease;
+}
+
+.paper-card a:hover{
+    background:#5F7F5C;
+}

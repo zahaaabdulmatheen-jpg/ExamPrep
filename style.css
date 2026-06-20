@@ -205,11 +205,12 @@ margin-top:40px;
 padding:20px;
 }
 
+
 .hero-logo{
-width:180px;
-height:auto;
+width:540px;
+height:560px;
 animation:fadeIn 1.2s ease;
-margin-bottom:15px;
+margin-bottom:10px;
 }
 
 .tagline{

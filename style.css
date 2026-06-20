@@ -116,3 +116,8 @@ transition:all 0.3s ease;
 transform:translateY(-8px);
 box-shadow:0 12px 25px rgba(0,0,0,.15);
 }
+.logo{
+font-size:32px;
+font-weight:700;
+letter-spacing:1px;
+}

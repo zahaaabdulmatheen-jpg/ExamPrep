@@ -206,8 +206,8 @@ padding:20px;
 }
 
 .hero-logo{
-width:200px;
-max-width:80%;
+width:100px;
+height:auto;
 animation:fadeIn 1.2s ease;
 margin-bottom:10px;
 }

@@ -240,3 +240,43 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 }
+
+/* FINAL HERO FIX */
+
+.hero{
+min-height:70vh !important;
+display:flex !important;
+flex-direction:column !important;
+justify-content:center !important;
+align-items:center !important;
+text-align:center !important;
+margin-top:0 !important;
+padding:20px !important;
+}
+
+.hero-logo{
+width:180px !important;
+height:auto !important;
+max-width:90% !important;
+margin-bottom:15px !important;
+}
+
+.tagline{
+margin-top:10px !important;
+font-size:22px !important;
+letter-spacing:5px !important;
+color:#6F846A !important;
+font-weight:700 !important;
+}
+
+.hero-subtitle{
+margin-top:18px !important;
+font-size:20px !important;
+color:#666 !important;
+}
+
+.logo-text{
+font-size:32px !important;
+font-weight:700 !important;
+color:white !important;
+}

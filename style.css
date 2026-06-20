@@ -149,3 +149,9 @@ transform:translateY(0);
 }
 
 }
+.quote{
+font-style:italic;
+margin-top:20px;
+color:#7E9C7A;
+font-size:20px;
+}

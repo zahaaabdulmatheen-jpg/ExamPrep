@@ -180,3 +180,21 @@ user-select:none;
 .hamburger:hover{
 transform:scale(1.1);
 }
+
+.logo-container{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo-container img{
+height:45px;
+width:auto;
+}
+
+.logo-container span{
+font-size:32px;
+font-weight:700;
+color:white;
+letter-spacing:1px;
+}

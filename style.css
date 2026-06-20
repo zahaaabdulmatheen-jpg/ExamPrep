@@ -308,3 +308,60 @@ body{
     color:white;
     letter-spacing:1px;
 }
+
+/* PAPER PAGE */
+
+.paper-section{
+    max-width:1000px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.paper-section h2{
+    color:#556B54;
+    margin-bottom:25px;
+    font-size:30px;
+    text-align:center;
+}
+
+.paper-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:25px;
+}
+
+.paper-card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    text-align:center;
+    transition:0.3s ease;
+}
+
+.paper-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 14px 30px rgba(0,0,0,0.13);
+}
+
+.paper-card h3{
+    color:#556B54;
+    margin-bottom:20px;
+    font-size:24px;
+}
+
+.paper-card a{
+    display:block;
+    background:#7E9C7A;
+    color:white;
+    text-decoration:none;
+    padding:13px;
+    margin:12px 0;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s ease;
+}
+
+.paper-card a:hover{
+    background:#5F7F5C;
+}

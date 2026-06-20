@@ -169,3 +169,14 @@ bottom:-50px;
 left:-50px;
 z-index:-1;
 }
+
+.hamburger{
+font-size:35px;
+cursor:pointer;
+transition:0.3s;
+user-select:none;
+}
+
+.hamburger:hover{
+transform:scale(1.1);
+}

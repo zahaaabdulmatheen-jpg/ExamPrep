@@ -206,10 +206,10 @@ padding:20px;
 }
 
 .hero-logo{
-width:120px;
+width:180px;
 height:auto;
 animation:fadeIn 1.2s ease;
-margin-bottom:5px;
+margin-bottom:15px;
 }
 
 .tagline{

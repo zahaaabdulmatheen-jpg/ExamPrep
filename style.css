@@ -100,4 +100,11 @@ text-decoration:none;
 color:#556B54;
 font-weight:bold;
 box-shadow:0 4px 10px rgba(0,0,0,.08);
+
+transition:all 0.3s ease;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 12px 25px rgba(0,0,0,.15);
 }

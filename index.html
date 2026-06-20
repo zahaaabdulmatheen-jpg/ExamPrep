@@ -1,70 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Exam Prep</title>
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Prep</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<div class="circle1"></div>
-<div class="circle2"></div>
+
 <body>
 
-<div class="topbar">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
 
-    <div class="hamburger" onclick="toggleMenu()" id="menuBtn">
-        ☰
+    <div class="topbar">
+
+        <div class="hamburger" onclick="toggleMenu()" id="menuBtn">
+            ☰
+        </div>
+
+        <div class="nav-brand">
+            <img src="images/logo-icon.png" alt="Exam Prep Logo">
+            <span>Exam Prep</span>
+        </div>
+
     </div>
 
-    <div class="nav-brand">
-        <img src="images/logo-icon.png" alt="Exam Prep Logo">
-        <span>Exam Prep</span>
+    <div id="sidebar">
+
+        <a href="igcse.html">IGCSE</a>
+        <a href="alevel.html">A Level</a>
+        <a href="practice.html">Solvable Papers</a>
+
     </div>
 
-</div>
+    <section class="hero">
 
-</div>
+        <img
+            src="images/logo.png"
+            class="hero-logo"
+            alt="Exam Prep Logo"
+        >
 
-<div class="logo-container">
+        <p class="tagline">
+            Past Papers. Practice. Perform.
+        </p>
 
-<img src="images/logo.png" alt="Exam Prep Logo">
+        <p class="hero-subtitle">
+            Question Papers, Mark Schemes
+            and Solvable Papers.
+        </p>
 
-<span>Exam Prep</span>
+    </section>
 
-</div>
-</div>
-
-<div id="sidebar">
-
-<a href="igcse.html">IGCSE</a>
-
-<a href="alevel.html">A Level</a>
-
-<a href="practice.html">Solvable Papers</a>
-
-</div>
-
-<section class="hero">
-
-<img
-src="images/logo.png"
-class="hero-logo"
-alt="Exam Prep Logo"
->
-
-<p class="tagline">
-Past Papers. Practice. Perform.
-</p>
-
-<p class="hero-subtitle">
-Question Papers, Mark Schemes
-and Solvable Papers.
-</p>
-
-</section>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
+</html>

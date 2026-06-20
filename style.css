@@ -287,21 +287,3 @@ body{
     }
 }
 
-.nav-brand{
-    display:flex;
-    align-items:center;
-    gap:12px;
-}
-
-.nav-brand img{
-    width:42px;
-    height:42px;
-    object-fit:contain;
-}
-
-.nav-brand span{
-    font-size:32px;
-    font-weight:700;
-    color:white;
-    letter-spacing:1px;
-}

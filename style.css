@@ -23,6 +23,7 @@ gap:20px;
 .hamburger{
 font-size:35px;
 cursor:pointer;
+z-index:10000;
 }
 
 /* SIDEBAR */

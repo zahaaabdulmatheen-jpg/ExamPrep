@@ -31,9 +31,12 @@ gap:20px;
 .hamburger{
 font-size:35px;
 cursor:pointer;
-z-index:10000;
+transition:.3s;
 }
 
+.hamburger:hover{
+transform:scale(1.15);
+}
 /* SIDEBAR */
 
 #sidebar{

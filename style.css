@@ -77,8 +77,11 @@ padding:20px;
 }
 
 .hero h1{
-font-size:60px;
+font-size:72px;
 color:#556B54;
+line-height:1.1;
+max-width:900px;
+margin:auto;
 }
 
 .hero p{
